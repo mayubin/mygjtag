@@ -160,4 +160,5 @@ void CGjtagApp::OnLoadbsd()
 {
 	// AfxMessageBox("BSD");
 	m_cpudata.LoadBSDFile(_T("at91sam9260_pqfp.bsd"));
+	AfxMessageBox("AT91SAM9260.BSD File loaded!");
 }
